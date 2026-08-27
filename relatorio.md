@@ -2,7 +2,7 @@
 
 ## 1. Executive summary
 
-Recomendamos que a Seazone compre **um apartamento de 2 quartos em Meia Praia (Itapema, SC)**. A escolha parte da **convergência entre múltiplas perspectivas complementares**: performance estática (static revenue proxy H91 ≈ R$15.925; capital efficiency ≈ 1,47%), dinâmica temporal (pickup mediano ≈ R$1.541,92) e robustez amostral (126 listings / 112 owners, evidência forte, Pareto não dominado). Meia Praia não tem a maior eficiência isolada — Morretes 2Q tem ~1,60% e preço menor — mas é o perfil mais defensável para uma compra hoje.
+Recomendamos que a Seazone compre **um apartamento de 2 quartos em Meia Praia (Itapema, SC)**. A escolha parte da **convergência entre múltiplas perspectivas complementares**: performance estática (static revenue proxy H91 ≈ R$15.925; capital efficiency ≈ 1,47%), dinâmica temporal (pickup mediano ≈ R$1.541,92) e robustez amostral (126 listings / 112 owners, faixa amostral forte apesar de cobertura Price_AV snapshot de 17,4%, Pareto não dominado). Meia Praia não tem a maior eficiência isolada — Morretes 2Q tem ~1,60% e preço menor — mas é o perfil mais defensável para uma compra hoje.
 
 Todas as métricas são **proxies**; nunca receita ou ocupação realizada. Nada é anualizado.
 
@@ -25,14 +25,14 @@ Cinco datasets (snapshot estático):
 - `Hosts` tem múltiplas linhas por `owner_id`; usado último snapshot por owner (3.057 owners).
 - `Price_AV`: 3 capture_day (06/07/20 de jan/2025), cada um cobrindo D..D+90 (91 datas); sem duplicação (listing, capture_day, stay).
 - `VivaReal`: 8.293 IDs únicos após deduplicação; bairros canonicalizados.
-- Ratings zero com sem reviews foram tratados como missing.
+- Ratings iguais a zero em listings sem reviews foram tratados como missing.
 
 ## 5. Interpretação do Price_AV
 
 - Linha presente = data com preço anunciado.
 - Ausência dentro da janela para listing observado = indisponibilidade (proxy).
 - Indisponibilidade **não** é reserva; pode ser bloqueio, manutenção ou uso do proprietário.
-- lista que é interpretação inferida (red-team).
+- Essa interpretação é uma inferência semântica e foi tratada explicitamente como risco no red-team.
 
 ## 6. Construção das métricas
 
@@ -54,13 +54,13 @@ Cinco datasets (snapshot estático):
 Associações (descritivas):
 - ADR: quartos, banheiros, hóspedes, cleaning fee, camas.
 - Unavailability proxy: reviews, fotos, maturidade do host.
-- Static revenue: principalmente estrutura/capacidade (via ADR).
+- Static revenue: principalmente estrutura/capacidade, associada ao ADR e à proxy estática observada.
 
-GroupKFold por owner mostrou que o Random Forest **não generaliza** static revenue para hosts não vistos ⇒ drivers são associa ti, não causais nem predição forte.
+GroupKFold por owner mostrou que o Random Forest **não generaliza** static revenue para hosts não vistos ⇒ os drivers representam associações descritivas, não relações causais nem evidência preditiva forte.
 
 ## 10. Mercado de compra / VivaReal
 
-VivaReal deduplicado (8.293 IDs), bairros canonicalizados, preços mediano por segmento. Preços são **asking price**, não transações.
+VivaReal deduplicado (8.293 IDs), bairros canonicalizados, preços medianos por segmento. Preços são **asking price**, não transações.
 
 ## 11. Eficiência de capital
 
@@ -75,7 +75,7 @@ Eficiência observada por horizonte; os rankings mudam pouco entre H30/H60/H91 (
 
 ## 13. Bootstrap e incerteza
 
-Bootstrap cluster por owner (2000 reps). Morretes 2Q mediana ≈1,61% (P2.5–97.5 1,36–2,05); Meia 2Q ≈1,48% (1,28–1,67). O payoff de pares confirma a ordem.
+Bootstrap cluster por owner (2000 reps). Morretes 2Q mediana ≈1,61% (P2.5–97.5 1,36–2,05); Meia 2Q ≈1,48% (1,28–1,67). Os pairwise win rates do bootstrap favorecem a mesma ordenação em várias comparações (ex.: Morretes > Meia em aproximadamente 82% das reamostragens do bootstrap principal), mas medem estabilidade amostral condicional aos dados observados, não probabilidades econômicas verdadeiras.
 
 ## 14. Pickup / dinâmica temporal
 
@@ -113,5 +113,3 @@ Ambiente: `python -m venv .venv`, `pip install -r requirements.txt`. Execução 
 - Humano: decisão, crítica, revisão e aprovação.
 
 Erros metodológicos e de implementação foram detectados e corrigidos. Logs completos serão em `ai-log/`. A decisão final é humana.
-
-> Aviso: nome do repositório `jt2026-Adilson-Carmo` não segue o padrão pedido (`jt2026-primeiro-ultimo-nome`).

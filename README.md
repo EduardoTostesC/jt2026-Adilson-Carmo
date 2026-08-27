@@ -11,7 +11,7 @@ Principais números auditados:
 
 - N Airbnb = 126
 - owners = 112
-- N VivaReal = 243
+- 243 anúncios de venda no VivaReal
 - preço mediano de compra ≈ R$1,08 milhão
 - static revenue proxy H91 ≈ R$15.925
 - observed-window capital efficiency proxy ≈ 1,47%
@@ -25,7 +25,13 @@ Meia Praia não possui a maior eficiência isolada. Morretes 2Q tem eficiência 
 
 - performance estática (static revenue proxy),
 - dinâmica temporal (pickup),
-- robustez amostral (126 listings / 112 owners / evidência forte).
+- robustez amostral (faixa amostral forte: 126 listings / 112 owners).
+
+| Candidato | Preço mediano | eff H91 | pickup mediano | N Airbnb | owners | Papel |
+|---|---|---|---|---|---|---|
+| **Meia Praia 2Q** | R$1,08M | 1,47% | R$1.541,92 | 126 | 112 | **PRIMARY** |
+| Morretes 2Q | R$790 mil | 1,60% | R$0 | 43 | 34 | ALT eficiência |
+| Centro 2Q | R$1,15M | 1,30% | R$3.982,58 | 59 | 37 | ALT momentum |
 
 ## Respostas do desafio
 
@@ -55,7 +61,7 @@ Separando por dimensão:
 
 - **ADR** (preço anunciado): associado a quartos, banheiros, hóspedes, cleaning fee e camas (estrutura/capacidade do imóvel).
 - **Unavailability proxy** (proxy de demanda): associado a reviews, número de fotos e maturidade do host.
-- **Static revenue**: associado principalmente à estrutura/capacidade que eleva o ADR.
+- **Static revenue**: associado principalmente à estrutura/capacidade que apresenta associação positiva com o ADR e com a proxy estática observada.
 
 Usamos sempre "associado a" — nunca "causa", "aumenta" ou "move a demanda" — porque a relação é descritiva/associativa.
 
@@ -122,7 +128,7 @@ Interpretação do Price_AV:
 16. GroupKFold por owner.
 17. Red-team.
 
-Detalhamento completo em `relatorio.md`.
+Detalhamento completo em [`relatorio.md`](relatorio.md).
 
 ## Limitações
 
@@ -139,9 +145,17 @@ Detalhamento completo em `relatorio.md`.
 
 ## Figuras
 
-- `outputs/figures/final_candidate_tradeoffs.png` — trade-offs finais (sem score).
-- `outputs/figures/sensitivity_efficiency.png` — eficiência por horizonte.
-- `outputs/figures/bootstrap_efficiency.png` — incerteza bootstrap por candidato.
+### Trade-offs dos candidatos
+
+![Trade-offs dos candidatos](outputs/figures/final_candidate_tradeoffs.png)
+
+### Sensibilidade por horizonte
+
+![Sensibilidade por horizonte](outputs/figures/sensitivity_efficiency.png)
+
+### Incerteza bootstrap
+
+![Bootstrap da eficiência](outputs/figures/bootstrap_efficiency.png)
 
 ## Como reproduzir
 
