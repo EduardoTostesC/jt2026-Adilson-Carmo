@@ -61,7 +61,7 @@ Separando por dimensão:
 
 - **ADR** (preço anunciado): associado a quartos, banheiros, hóspedes, cleaning fee e camas (estrutura/capacidade do imóvel).
 - **Unavailability proxy** (proxy de demanda): associado a reviews, número de fotos e maturidade do host.
-- **Static revenue**: associado principalmente à estrutura/capacidade que apresenta associação positiva com o ADR e com a proxy estática observada.
+- **Static revenue**: estrutura/capacidade apresenta associação positiva com o ADR e com a proxy estática observada.
 
 Usamos sempre "associado a" — nunca "causa", "aumenta" ou "move a demanda" — porque a relação é descritiva/associativa.
 

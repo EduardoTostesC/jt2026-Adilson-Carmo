@@ -79,7 +79,22 @@ Bootstrap cluster por owner (2000 reps). Morretes 2Q mediana ≈1,61% (P2.5–97
 
 ## 14. Pickup / dinâmica temporal
 
-Centro lidera pickup mediano por listing entre bairros. Centro 2Q ≈ R$3.982,58; Centro 1Q ≈ R$3.469,96; Meia ≈ R$1.541,92; Morretes ≈ R$0 (janela observada).
+Separamos dois níveis de granularidade: **bairro** e **segmento**.
+
+**Por bairro** (pickup mediano por listing entre os principais bairros):
+
+- Centro ≈ R$3.365
+- Meia Praia ≈ R$2.397
+- Morretes ≈ R$0
+
+**Por segmento** (pickup mediano por segmento específico):
+
+- Centro 2Q ≈ R$3.982,58
+- Centro 1Q ≈ R$3.469,96
+- Meia Praia 2Q ≈ R$1.541,92
+- Morretes 2Q ≈ R$0
+
+A conclusão por bairro (Centro com maior intensidade de pickup) e os números por segmento referem-se a granularidades diferentes e não devem ser lidos como equivalentes.
 
 ## 15. Pareto e trade-offs
 
