@@ -1,0 +1,11 @@
+id,risk,severity,evidence,how_it_could_change_decision,mitigation,remains_open
+1,Price_AV semantics,critico,Linha tratada como data disponivel e inferencia; janela D..D+90 com timestamps disjuntos.,Pode inflar ou reduzir a proxy estatica e o ranking.,rotula proxy; reportar cobertura.,sim
+2,unavailable != booking,critico,"Ausencia de data pode ser bloqueio, manutencao, uso do proprietario.",Superestima demanda em bairros que fecham calendario.,proxy de demanda sempre.,sim
+3,Price_AV selection bias,critico,"Coverage snapshot: Centro1Q 64,7%, Centro2Q 32,2%, Meia2 17,4%, Morretes2 18,8%.",Comparacoes podem refletir disponibilidade de dados.,reportar coverage; nao ponderar.,sim
+4,seasonality,importante,Janela cobre verao/inicio do ano (jan-abr).,Eficiencia pode nao representar o ano.,rotulo observed-window; nunca x4.,sim
+5,VivaReal asking price != transaction,importante,Preco de anuncio nao transacionado; amostra pequena (ex Centro1 N=22).,Eficiencia pode divergir do proxy.,usar mediana/intervalo; reconhecer asking.,sim
+6,unobserved costs,critico,Partial-cost cobre so condominio e IPTU.,Pode superestimar retorno liquido.,nao promover como liquido.,sim
+7,airbnb/vivareal conceptual matching,secundario,Join por bairro x quartos x tipo.,"Valido no agregado, nao individual.",decidir por segmento.,sim
+8,host dependence,importante,"N owners H91: Morretes2 34, MeiaPraia2 112, Centro2 37, Centro1 17.",Bootstrap i.i.d. superestima confianca.,cluster bootstrap; reportar N owners.,sim
+9,sample size,importante,N_sale reduzidos (ex Centro1 N=22) e N Airbnb 43-126.,Mediana instavel; segmentos pequenos frageis.,exigir minimo; reportar evidencia.,sim
+10,static revenue proxy construction,importante,Estatica = mediana preco x noites indisponiveis; RF nao generaliza.,NAO tratar como predicao forte nem receita real.,rotular proxy estatica.,sim

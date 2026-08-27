@@ -1,0 +1,5 @@
+perfil,N_airbnb,N_sale,N_pickup,ADR,unavailability,static_rev_proxy,median_sale_price,capital_efficiency_proxy,net_pickup_value_median,net_transition_rate,evidence_tier,guests,beds,bathrooms,cleaning_fee,reviews,star_clean,guest_sat_clean,guest_fav_rate,professional_rate,superhost_rate,amenities_count,picture_count
+apartamento 2Q Morretes,43,1037,33,453.5,0.319,12650.0,790000.0,0.01601,0.0,0.0,moderada,5.0,2.0,2.0,245.0,12.0,4.989999771118164,4.0,0.581,0.238,0.535,31.0,18.0
+apartamento 2Q Meia Praia,126,243,98,448.0,0.429,15925.0,1080000.0,0.01475,1541.9,0.0519,forte,6.0,3.0,2.0,250.0,23.5,4.929999828338623,4.0,0.722,0.104,0.532,30.5,22.0
+apartamento 2Q Centro,59,89,50,600.0,0.33,15000.0,1150000.0,0.01304,3982.6,0.0844,forte,6.0,3.0,2.0,240.0,12.0,5.0,5.0,0.559,0.407,0.271,36.0,13.0
+apartamento 1Q Centro,75,22,70,450.0,0.264,10416.0,890000.0,0.0117,3470.0,0.0779,moderada,4.0,2.0,1.0,180.0,11.0,4.909999847412109,4.0,0.373,0.773,0.173,35.0,0.0

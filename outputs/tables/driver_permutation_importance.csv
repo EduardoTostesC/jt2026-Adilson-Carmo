@@ -1,0 +1,136 @@
+target,with_suburb,feature,perm_imp,holdout_n
+static revenue,True,n_beds,-443.8360424655293,322
+static revenue,True,n_guests,-165.46004172922585,322
+static revenue,True,n_bathrooms,390.5822568198946,322
+static revenue,True,n_bedrooms,1919.6365458364987,322
+static revenue,True,cleaning_fee,-57.791300738965944,322
+static revenue,True,picture_count,2695.9134330175148,322
+static revenue,True,n_reviews,407.08119897678915,322
+static revenue,True,star_clean,-409.6586484221032,322
+static revenue,True,guest_sat_clean,-7.778296671098724,322
+static revenue,True,n_reviews_host,-735.7101060403635,322
+static revenue,True,star_host_clean,1027.064196041157,322
+static revenue,True,years_host,50.155019805681874,322
+static revenue,True,months_host,-37.20376981660629,322
+static revenue,True,amenities_count,81.86412537536053,322
+static revenue,True,description_length,3313.8301293607847,322
+static revenue,True,can_instant_book_b,14.334732275278293,322
+static revenue,True,is_professional_b,-35.86910767820045,322
+static revenue,True,is_new_listing_b,2.098819878465656,322
+static revenue,True,is_guest_favorite_b,48.17522482922068,322
+static revenue,True,is_superhost_b,38.36568909255438,322
+static revenue,True,is_verified_b,0.0,322
+static revenue,True,suburb_clean,-404.84985490555044,322
+static revenue,True,listing_type_low,-5.077764507693791,322
+static revenue,False,n_beds,-69.06007463118877,322
+static revenue,False,n_guests,-516.3493168826062,322
+static revenue,False,n_bathrooms,587.575344989806,322
+static revenue,False,n_bedrooms,2209.0181385047854,322
+static revenue,False,cleaning_fee,-439.39748296194375,322
+static revenue,False,picture_count,2842.984691871162,322
+static revenue,False,n_reviews,781.0024420620418,322
+static revenue,False,star_clean,-789.403101270556,322
+static revenue,False,guest_sat_clean,-2.0879608860333976,322
+static revenue,False,n_reviews_host,-28.884285363455273,322
+static revenue,False,star_host_clean,1031.8920262991523,322
+static revenue,False,years_host,46.41332815972346,322
+static revenue,False,months_host,216.245061165663,322
+static revenue,False,amenities_count,147.42787889833525,322
+static revenue,False,description_length,3472.867543614454,322
+static revenue,False,can_instant_book_b,109.01423213144008,322
+static revenue,False,is_professional_b,165.2647307042993,322
+static revenue,False,is_new_listing_b,10.058046060726337,322
+static revenue,False,is_guest_favorite_b,58.4208133378077,322
+static revenue,False,is_superhost_b,-126.33762360733672,322
+static revenue,False,is_verified_b,0.0,322
+static revenue,False,listing_type_low,10.111230724328925,322
+ADR,True,n_beds,0.16789205169774846,322
+ADR,True,n_guests,-0.6930971141718117,322
+ADR,True,n_bathrooms,3.16858020819879,322
+ADR,True,n_bedrooms,64.8249168406522,322
+ADR,True,cleaning_fee,1.0820750301346038,322
+ADR,True,picture_count,27.73999906378885,322
+ADR,True,n_reviews,11.830923107474144,322
+ADR,True,star_clean,-3.6274628636438733,322
+ADR,True,guest_sat_clean,0.13224000623189341,322
+ADR,True,n_reviews_host,2.4771964541304614,322
+ADR,True,star_host_clean,1.615679103436878,322
+ADR,True,years_host,-0.4173335648343624,322
+ADR,True,months_host,-1.2462920600310212,322
+ADR,True,amenities_count,0.6265900713147261,322
+ADR,True,description_length,37.083362025217426,322
+ADR,True,can_instant_book_b,0.26745736451346713,322
+ADR,True,is_professional_b,1.8005405278571687,322
+ADR,True,is_new_listing_b,0.5620723663147231,322
+ADR,True,is_guest_favorite_b,0.30359443666670244,322
+ADR,True,is_superhost_b,0.3160108070911264,322
+ADR,True,is_verified_b,0.0,322
+ADR,True,suburb_clean,-0.8413571508177824,322
+ADR,True,listing_type_low,0.1958479437474324,322
+ADR,False,n_beds,0.9208910247619257,322
+ADR,False,n_guests,-0.25950918535194206,322
+ADR,False,n_bathrooms,6.190192987898572,322
+ADR,False,n_bedrooms,65.30516359295035,322
+ADR,False,cleaning_fee,1.0073534896791245,322
+ADR,False,picture_count,23.667826104068336,322
+ADR,False,n_reviews,10.252109044979326,322
+ADR,False,star_clean,-4.282891844648011,322
+ADR,False,guest_sat_clean,-0.16648141206001413,322
+ADR,False,n_reviews_host,2.1917511993892504,322
+ADR,False,star_host_clean,0.34194024843686466,322
+ADR,False,years_host,-0.7609273612422243,322
+ADR,False,months_host,0.2959294020600737,322
+ADR,False,amenities_count,1.145913729585942,322
+ADR,False,description_length,35.69343622175986,322
+ADR,False,can_instant_book_b,-0.014738367204932957,322
+ADR,False,is_professional_b,2.6709691606832537,322
+ADR,False,is_new_listing_b,0.4664657631780756,322
+ADR,False,is_guest_favorite_b,0.39013393424432935,322
+ADR,False,is_superhost_b,0.3613522234679323,322
+ADR,False,is_verified_b,0.0,322
+ADR,False,listing_type_low,0.23962358530022526,322
+unavailability,True,n_beds,0.00045817122835757065,322
+unavailability,True,n_guests,-0.0008124132596182221,322
+unavailability,True,n_bathrooms,-0.00034985097718016054,322
+unavailability,True,n_bedrooms,0.0002380042317930542,322
+unavailability,True,cleaning_fee,-0.0029269901940709303,322
+unavailability,True,picture_count,-0.0036366345869451424,322
+unavailability,True,n_reviews,0.019104930266420926,322
+unavailability,True,star_clean,-0.0006161354173776446,322
+unavailability,True,guest_sat_clean,-0.00010331490455714187,322
+unavailability,True,n_reviews_host,-0.0014175824175823941,322
+unavailability,True,star_host_clean,-0.0013332423270311367,322
+unavailability,True,years_host,0.0005969330876163276,322
+unavailability,True,months_host,0.0005169612995700012,322
+unavailability,True,amenities_count,0.00016060337178349927,322
+unavailability,True,description_length,0.0024400382226469368,322
+unavailability,True,can_instant_book_b,-0.0029190271426296015,322
+unavailability,True,is_professional_b,-0.0003291925465838452,322
+unavailability,True,is_new_listing_b,0.0004120992878756891,322
+unavailability,True,is_guest_favorite_b,0.000971560530566748,322
+unavailability,True,is_superhost_b,0.00020553773348805647,322
+unavailability,True,is_verified_b,8.326672684688674e-18,322
+unavailability,True,suburb_clean,-0.0017163561076604579,322
+unavailability,True,listing_type_low,-0.00011450867972606915,322
+unavailability,False,n_beds,0.0002751803062362418,322
+unavailability,False,n_guests,-0.0008279753372920695,322
+unavailability,False,n_bathrooms,-0.0004947102586853825,322
+unavailability,False,n_bedrooms,-0.00010383819079467227,322
+unavailability,False,cleaning_fee,-0.0033715559802516004,322
+unavailability,False,picture_count,-0.006012695379154967,322
+unavailability,False,n_reviews,0.019274884535754128,322
+unavailability,False,star_clean,-0.00023850476645504714,322
+unavailability,False,guest_sat_clean,6.48874934589594e-05,322
+unavailability,False,n_reviews_host,-0.0011423338566195179,322
+unavailability,False,star_host_clean,-0.001770800627943453,322
+unavailability,False,years_host,0.0011755739084931937,322
+unavailability,False,months_host,0.0008416035310445629,322
+unavailability,False,amenities_count,8.17464109389876e-05,322
+unavailability,False,description_length,0.002641253156781137,322
+unavailability,False,can_instant_book_b,-0.0018135053352444197,322
+unavailability,False,is_professional_b,-0.00017823584283208072,322
+unavailability,False,is_new_listing_b,0.0007525766159306863,322
+unavailability,False,is_guest_favorite_b,0.0011468159170022862,322
+unavailability,False,is_superhost_b,0.0017285737037290166,322
+unavailability,False,is_verified_b,1.9428902930940238e-17,322
+unavailability,False,listing_type_low,-0.00016660978772777278,322

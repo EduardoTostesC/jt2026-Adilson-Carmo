@@ -1,0 +1,5 @@
+candidato,N_pickup,available_to_unavailable_elev,unavailable_to_available_median,net_pickup_nights_median,net_pickup_value_median,net_pickup_value_mean,net_pickup_value_p25,net_pickup_value_p75,net_transition_rate_median,net_transition_rate_p25,net_transition_rate_p75
+apartamento 2Q Morretes,33,0.0,0.0,0.0,0.0,1736.9848484848485,-250.0,3487.5,0.0,-0.0129870129870129,0.1298701298701298
+apartamento 2Q Meia Praia,98,5.0,0.0,4.0,1541.91667,3325.037415408163,0.0,5560.0,0.0519480519480519,0.0,0.11363636363636358
+apartamento 2Q Centro,50,7.5,0.0,6.5,3982.58335,5555.2033360000005,0.0,9342.25,0.0844155844155844,0.0,0.1558441558441558
+apartamento 1Q Centro,70,7.0,0.0,6.0,3469.95835,3512.420239428571,861.5,6031.125,0.0779220779220779,0.0259740259740259,0.16558441558441556

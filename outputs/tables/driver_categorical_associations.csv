@@ -1,0 +1,46 @@
+categoria,mediana,N,p25,p75,target,faixa_amostral
+Alto Sao Bento,8557.0,3,8198.5,40528.5,static revenue,critico_<5
+Areal,30024.0,1,30024.0,30024.0,static revenue,critico_<5
+Canto da Praia,15328.0,5,15158.0,19380.375,static revenue,pequeno_5-19
+Casa Branca,9120.0,7,7434.5,12802.5,static revenue,pequeno_5-19
+Centro,13185.375,180,8962.5,21570.0,static revenue,grande_50+
+Ilhota,8330.0,7,5375.5,12945.0,static revenue,pequeno_5-19
+Meia Praia,19200.0,483,12530.0,29265.0,static revenue,grande_50+
+Morretes,15607.5,66,9718.75,21675.0,static revenue,grande_50+
+Sertao do Trombudo,5920.0,3,4325.0,29960.0,static revenue,critico_<5
+Sertaozinho,23275.0,3,12887.5,23887.5,static revenue,critico_<5
+Tabuleiro dos Oliveiras,12515.0,16,7035.5,22862.5,static revenue,pequeno_5-19
+Varzea,36900.0,3,19950.0,44000.0,static revenue,critico_<5
+Alto Sao Bento,280.0,3,239.5,1390.0,ADR,critico_<5
+Areal,556.0,1,556.0,556.0,ADR,critico_<5
+Canto da Praia,500.0,5,479.0,518.0,ADR,pequeno_5-19
+Casa Branca,300.0,7,260.0,327.5,ADR,pequeno_5-19
+Centro,496.5,180,384.75,630.0,ADR,grande_50+
+Ilhota,490.0,7,345.5,642.5,ADR,pequeno_5-19
+Meia Praia,586.0,483,440.0,800.0,ADR,grande_50+
+Morretes,464.0,66,350.75,598.5,ADR,grande_50+
+Sertao do Trombudo,390.0,3,380.0,695.0,ADR,critico_<5
+Sertaozinho,1662.5,3,1081.25,2581.25,ADR,critico_<5
+Tabuleiro dos Oliveiras,509.0,16,395.25,645.5,ADR,pequeno_5-19
+Varzea,700.0,3,575.0,1100.0,ADR,critico_<5
+Alto Sao Bento,0.3186813186813186,3,0.3131868131868132,0.39560439560439553,unavailability,critico_<5
+Areal,0.5934065934065934,1,0.5934065934065934,0.5934065934065934,unavailability,critico_<5
+Canto da Praia,0.3516483516483517,5,0.2857142857142857,0.6923076923076923,unavailability,pequeno_5-19
+Casa Branca,0.3846153846153846,7,0.3131868131868132,0.4560439560439561,unavailability,pequeno_5-19
+Centro,0.3076923076923077,180,0.1978021978021978,0.48626373626373626,unavailability,grande_50+
+Ilhota,0.1868131868131868,7,0.11538461538461531,0.3571428571428571,unavailability,pequeno_5-19
+Meia Praia,0.4065934065934066,483,0.2527472527472527,0.6153846153846154,unavailability,grande_50+
+Morretes,0.39010989010989006,66,0.2307692307692307,0.5796703296703297,unavailability,grande_50+
+Sertao do Trombudo,0.1758241758241758,3,0.12637362637362637,0.3846153846153846,unavailability,critico_<5
+Sertaozinho,0.0769230769230769,3,0.0659340659340659,0.11538461538461535,unavailability,critico_<5
+Tabuleiro dos Oliveiras,0.3186813186813186,16,0.18406593406593405,0.510989010989011,unavailability,pequeno_5-19
+Varzea,0.8021978021978022,3,0.41208791208791207,0.8516483516483517,unavailability,critico_<5
+apartamento,16833.75,737,10660.0,26550.0,static revenue,grande_50+
+casa,16000.0,33,8330.0,36900.0,static revenue,medio_20-49
+outros,3401.0,7,2365.0,6075.0,static revenue,pequeno_5-19
+apartamento,540.0,737,400.0,720.0,ADR,grande_50+
+casa,500.0,33,300.0,1000.0,ADR,medio_20-49
+outros,170.0,7,150.0,214.5,ADR,pequeno_5-19
+apartamento,0.3736263736263736,737,0.2307692307692307,0.5824175824175825,unavailability,grande_50+
+casa,0.3626373626373626,33,0.1538461538461538,0.5824175824175825,unavailability,medio_20-49
+outros,0.3516483516483517,7,0.15384615384615385,0.44505494505494503,unavailability,pequeno_5-19

@@ -1,0 +1,4 @@
+perfil,n_total,n_com_price,cobertura_percentual
+studio (bedrooms==0) + Centro,3,0,0.0
+1 quarto + Centro,165,82,49.7
+apartamento + 1 quarto + Centro,116,78,67.2

@@ -1,0 +1,46 @@
+feature,target,n_valid,spearman
+n_beds,static revenue,777,0.29292150771490444
+n_beds,ADR,777,0.3324023198072356
+n_beds,unavailability,777,0.11203942949459327
+n_guests,static revenue,777,0.3601638194401184
+n_guests,ADR,777,0.44738085308444847
+n_guests,unavailability,777,0.11694700140681752
+n_bathrooms,static revenue,777,0.3687294227214876
+n_bathrooms,ADR,777,0.493147247240008
+n_bathrooms,unavailability,777,0.10613241388616854
+n_bedrooms,static revenue,777,0.4090705859791013
+n_bedrooms,ADR,777,0.5475950106371311
+n_bedrooms,unavailability,777,0.11716317986929525
+cleaning_fee,static revenue,777,0.22135979644067164
+cleaning_fee,ADR,777,0.3937868585795948
+cleaning_fee,unavailability,777,0.003934233894983846
+picture_count,static revenue,777,0.30576446985739353
+picture_count,ADR,777,0.20191923032825485
+picture_count,unavailability,777,0.20137222142029906
+n_reviews,static revenue,777,0.19832340515699537
+n_reviews,ADR,777,-0.1510254389655783
+n_reviews,unavailability,777,0.29058208669560454
+star_clean,static revenue,762,0.003722104499515113
+star_clean,ADR,762,0.11084408841598015
+star_clean,unavailability,762,-0.05426758481657917
+guest_sat_clean,static revenue,762,-0.07130678897965528
+guest_sat_clean,ADR,762,0.09561837835184682
+guest_sat_clean,unavailability,762,-0.12186279480038906
+n_reviews_host,static revenue,777,0.013675630347078919
+n_reviews_host,ADR,777,-0.07390526487882858
+n_reviews_host,unavailability,777,0.025318011382359954
+star_host_clean,static revenue,769,0.06225552061577888
+star_host_clean,ADR,769,0.07920965579322359
+star_host_clean,unavailability,769,0.05312086757034095
+years_host,static revenue,777,0.035983690286624175
+years_host,ADR,777,0.042585269093095554
+years_host,unavailability,777,-0.007860669884417065
+months_host,static revenue,777,0.1533569012874925
+months_host,ADR,777,0.032790479831482894
+months_host,unavailability,777,0.15989953700535947
+amenities_count,static revenue,777,0.09173940804332609
+amenities_count,ADR,777,0.033346140733788734
+amenities_count,unavailability,777,0.08852781941750092
+description_length,static revenue,777,-0.07224906233077144
+description_length,ADR,777,-0.055335351067059044
+description_length,unavailability,777,-0.06439365922644381

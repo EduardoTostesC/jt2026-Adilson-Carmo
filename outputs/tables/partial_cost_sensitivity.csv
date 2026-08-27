@@ -1,0 +1,5 @@
+candidato,condo_N_observed,condo_missing_rate,condo_N_zero_observed,condo_zero_rate_among_observed,iptu_N_observed,iptu_missing_rate,iptu_N_zero_observed,iptu_zero_rate_among_observed,partial_observed_cost_proxy_91,partial_cost_capital_efficiency
+apartamento 2Q Morretes,735,0.2912,243,0.3306,750,0.2768,273,0.364,11644.04109589041,0.014739292526443558
+apartamento 2Q Meia Praia,179,0.2634,45,0.2514,168,0.3086,53,0.3155,14412.945205479453,0.013345319634703198
+apartamento 2Q Centro,73,0.1798,18,0.2466,75,0.1573,25,0.3333,13442.479452054795,0.011689112567004169
+apartamento 1Q Centro,14,0.3636,4,0.2857,11,0.5,4,0.3636,9036.082191780823,0.010152901339079576

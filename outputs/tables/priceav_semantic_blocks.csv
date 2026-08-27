@@ -1,0 +1,14 @@
+tipo,item
+SABEMOS,"existem 3 capture_day (06,07,20/01/2025)"
+SABEMOS,"cada capture cobre D..D+90 (91 datas); lead sempre em [0,90]"
+SABEMOS,"timestamps intradiários de um mesmo (listing, capture_day) têm stay_dates disjuntas"
+SABEMOS,linhas existentes possuem preço anunciado
+SABEMOS,o padrão de disponibilidade muda entre as capturas
+INFERIMOS,linhas representam datas COM preço anunciado (disponíveis para reserva)
+INFERIMOS,ausência de data dentro da janela para um listing observado = indisponibilidade proxy
+INFERIMOS,indisponibilidade pode funcionar como proxy de demanda
+NÃO SABEMOS,não sabemos SE indisponibilidade = reserva
+NÃO SABEMOS,não sabemos se é bloqueio manual
+NÃO SABEMOS,não sabemos se é manutenção
+NÃO SABEMOS,não sabemos se é uso do proprietário
+NÃO SABEMOS,não sabemos se é fechamento operacional

@@ -1,0 +1,9 @@
+perfil,N_airbnb,N_vivareal,N_pickup,static_rev_91,median_sale,cap_eff_91,net_pickup_value,evidence_tier
+apartamento 1Q Centro,75,22.0,70,10416.0,890000.0,0.011703370786516855,3469.95835,moderada
+apartamento 2Q Centro,59,89.0,50,15000.0,1150000.0,0.013043478260869565,3982.58335,forte
+apartamento 1Q Meia Praia,16,58.0,14,14838.75,877500.0,0.01691025641025641,4617.5,exploratoria
+apartamento 2Q Meia Praia,126,243.0,98,15925.0,1080000.0,0.01474537037037037,1541.91667,forte
+apartamento 1Q Morretes,3,50.0,2,27650.0,624500.0,0.044275420336269015,5801.5,exploratoria
+apartamento 2Q Morretes,43,1037.0,33,12650.0,790000.0,0.0160126582278481,0.0,moderada
+apartamento 2Q Tabuleiro dos Oliveiras,12,110.0,7,13612.5,780469.5,0.01744142468091322,2495.0,exploratoria
+studio+Centro,0,,0,,,,,evidência_insuficiente
