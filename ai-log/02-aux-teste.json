@@ -3,9 +3,9 @@
     "id": "ses_fc0a4e4ecffepLDbysxyaoVEmq",
     "slug": "kind-sailor",
     "projectID": "global",
-    "directory": "[redacted:session-directory:ses_fc0a4e4ecffepLDbysxyaoVEmq]",
+    "directory": "C:\\Users\\eduve\\OneDrive\\Desktop\\hackathon",
     "path": "Users/eduve/OneDrive/Desktop/hackathon",
-    "title": "[redacted:session-title:ses_fc0a4e4ecffepLDbysxyaoVEmq]",
+    "title": "Funcionou?",
     "agent": "build",
     "model": {
       "id": "deepseek-v4-flash",
@@ -53,7 +53,7 @@
       "parts": [
         {
           "type": "text",
-          "text": "[redacted:text:prt_03f5b1b560016d86HM2qVewwJ0]",
+          "text": "me responda com uma palavra: funcionou?",
           "id": "prt_03f5b1b560016d86HM2qVewwJ0",
           "sessionID": "ses_fc0a4e4ecffepLDbysxyaoVEmq",
           "messageID": "msg_03f5b1b52001oSZ55Cv9IiWjGW"
@@ -67,8 +67,8 @@
         "mode": "build",
         "agent": "build",
         "path": {
-          "cwd": "[redacted:cwd:msg_03f5b1b7b001LH1FIooXKvz8Ix]",
-          "root": "[redacted:root:msg_03f5b1b7b001LH1FIooXKvz8Ix]"
+          "cwd": "C:\\Users\\eduve\\OneDrive\\Desktop\\hackathon",
+          "root": "/"
         },
         "cost": 0,
         "tokens": {
@@ -100,7 +100,7 @@
         },
         {
           "type": "text",
-          "text": "[redacted:text:prt_03f5b266b001jQhSU00HnWyJtq]",
+          "text": "Sim.",
           "time": {
             "start": 1787769333355,
             "end": 1787769333659

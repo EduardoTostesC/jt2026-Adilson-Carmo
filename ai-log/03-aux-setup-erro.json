@@ -3,9 +3,9 @@
     "id": "ses_fc3317a9affezC4zkRH8E1gvac",
     "slug": "kind-meadow",
     "projectID": "global",
-    "directory": "[redacted:session-directory:ses_fc3317a9affezC4zkRH8E1gvac]",
+    "directory": "C:\\Users\\eduve\\OneDrive\\Desktop\\hackathon",
     "path": "Users/eduve/OneDrive/Desktop/hackathon",
-    "title": "[redacted:session-title:ses_fc3317a9affezC4zkRH8E1gvac]",
+    "title": "New session - 2026-08-26T06:42:42.661Z",
     "agent": "build",
     "model": {
       "id": "deepseek-v4-flash",
@@ -53,7 +53,7 @@
       "parts": [
         {
           "type": "text",
-          "text": "[redacted:text:prt_03cce8596001aTlgTiVgSx1eqr]",
+          "text": "me responda com uma palavra: funcionou?",
           "id": "prt_03cce8596001aTlgTiVgSx1eqr",
           "sessionID": "ses_fc3317a9affezC4zkRH8E1gvac",
           "messageID": "msg_03cce8593001a7nxYUG0O3rEa9"
@@ -67,8 +67,8 @@
         "mode": "build",
         "agent": "build",
         "path": {
-          "cwd": "[redacted:cwd:msg_03cce85ae001gWXKGVWwj6v4SG]",
-          "root": "[redacted:root:msg_03cce85ae001gWXKGVWwj6v4SG]"
+          "cwd": "C:\\Users\\eduve\\OneDrive\\Desktop\\hackathon",
+          "root": "/"
         },
         "cost": 0,
         "tokens": {

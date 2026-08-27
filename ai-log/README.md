@@ -1,6 +1,16 @@
 # AI Collaboration Logs
 
-Esta pasta contém os exports completos das sessões de IA utilizadas no projeto. Falhas, iterações e correções foram preservadas. Apenas credenciais/segredos foram sanitizados (via `opencode export --sanitize`).
+Esta pasta contém os exports textuais completos das sessões de OpenCode utilizadas durante o projeto.
+
+Erros, tentativas fracassadas, iterações, críticas e correções foram preservados.
+
+Somente valores de credenciais eventualmente presentes foram substituídos por:
+
+`[REDACTED_SECRET]`
+
+Nenhum conteúdo analítico foi removido.
+
+Metadados de caminho local podem aparecer como `[REDACTED_LOCAL_PATH]`.
 
 | arquivo | session_id | fase | descrição curta |
 |---|---|---|---|

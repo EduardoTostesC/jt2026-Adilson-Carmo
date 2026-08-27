@@ -183,4 +183,4 @@ python src/99_validate_final_artifacts.py
 - **ChatGPT**: metodologia, auditoria independente e red-team.
 - **Humano**: decisão, crítica, revisão e aprovação.
 
-Houve erros metodológicos e de implementação; foram detectados, questionados e corrigidos. Logs completos serão disponibilizados em `ai-log/`. A IA **não** tomou a decisão sozinha — a decisão final é do autor do projeto.
+Houve erros metodológicos e de implementação; foram detectados, questionados e corrigidos. Logs completos das sessões estão disponíveis em [`ai-log/`](ai-log/). A IA **não** tomou a decisão sozinha — a decisão final é do autor do projeto.

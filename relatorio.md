@@ -127,4 +127,4 @@ Ambiente: `python -m venv .venv`, `pip install -r requirements.txt`. Execução 
 - ChatGPT: metodologia, auditoria independente, red-team.
 - Humano: decisão, crítica, revisão e aprovação.
 
-Erros metodológicos e de implementação foram detectados e corrigidos. Logs completos serão em `ai-log/`. A decisão final é humana.
+Erros metodológicos e de implementação foram detectados e corrigidos. Logs completos das sessões estão disponíveis em [`ai-log/`](ai-log/). A decisão final é humana.
