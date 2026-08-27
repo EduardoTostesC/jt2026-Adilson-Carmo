@@ -1,0 +1,121 @@
+{
+  "info": {
+    "id": "ses_fc3317a9affezC4zkRH8E1gvac",
+    "slug": "kind-meadow",
+    "projectID": "global",
+    "directory": "[redacted:session-directory:ses_fc3317a9affezC4zkRH8E1gvac]",
+    "path": "Users/eduve/OneDrive/Desktop/hackathon",
+    "title": "[redacted:session-title:ses_fc3317a9affezC4zkRH8E1gvac]",
+    "agent": "build",
+    "model": {
+      "id": "deepseek-v4-flash",
+      "providerID": "hub"
+    },
+    "version": "1.18.21",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "time": {
+      "created": 1787726562661,
+      "updated": 1787726562793
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1787726562708
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "hub",
+          "modelID": "deepseek-v4-flash"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_03cce8593001a7nxYUG0O3rEa9",
+        "sessionID": "ses_fc3317a9affezC4zkRH8E1gvac"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "[redacted:text:prt_03cce8596001aTlgTiVgSx1eqr]",
+          "id": "prt_03cce8596001aTlgTiVgSx1eqr",
+          "sessionID": "ses_fc3317a9affezC4zkRH8E1gvac",
+          "messageID": "msg_03cce8593001a7nxYUG0O3rEa9"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_03cce8593001a7nxYUG0O3rEa9",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "[redacted:cwd:msg_03cce85ae001gWXKGVWwj6v4SG]",
+          "root": "[redacted:root:msg_03cce85ae001gWXKGVWwj6v4SG]"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "deepseek-v4-flash",
+        "providerID": "hub",
+        "time": {
+          "created": 1787726562734,
+          "completed": 1787726563725
+        },
+        "error": {
+          "name": "APIError",
+          "data": {
+            "message": "LiteLLM Virtual Key expected. Received=SUA-****AQUI, expected to start with 'sk-'.",
+            "statusCode": 401,
+            "isRetryable": false,
+            "responseHeaders": {
+              "connection": "keep-alive",
+              "content-length": "154",
+              "content-security-policy": "frame-ancestors 'none'",
+              "content-type": "application/json",
+              "date": "Wed, 26 Aug 2026 06:42:43 GMT",
+              "server": "uvicorn",
+              "via": "1.1 88c333921d5c405e037b84bb8c2dc33e.cloudfront.net (CloudFront)",
+              "x-amz-cf-id": "n4Yyu8oorqiMNvreRYnqqG7jqpO4eaqrbp2J3plEyT283DseHKWcnw==",
+              "x-amz-cf-pop": "GRU3-P1",
+              "x-cache": "Error from cloudfront",
+              "x-content-type-options": "nosniff",
+              "x-frame-options": "DENY"
+            },
+            "responseBody": "{\"error\":{\"message\":\"LiteLLM Virtual Key expected. Received=SUA-****AQUI, expected to start with 'sk-'.\",\"type\":\"auth_error\",\"param\":\"None\",\"code\":\"401\"}}",
+            "metadata": {
+              "url": "https://hub.seazone.dev/v1/chat/completions"
+            }
+          }
+        },
+        "id": "msg_03cce85ae001gWXKGVWwj6v4SG",
+        "sessionID": "ses_fc3317a9affezC4zkRH8E1gvac"
+      },
+      "parts": []
+    }
+  ]
+}

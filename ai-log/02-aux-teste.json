@@ -1,0 +1,133 @@
+{
+  "info": {
+    "id": "ses_fc0a4e4ecffepLDbysxyaoVEmq",
+    "slug": "kind-sailor",
+    "projectID": "global",
+    "directory": "[redacted:session-directory:ses_fc0a4e4ecffepLDbysxyaoVEmq]",
+    "path": "Users/eduve/OneDrive/Desktop/hackathon",
+    "title": "[redacted:session-title:ses_fc0a4e4ecffepLDbysxyaoVEmq]",
+    "agent": "build",
+    "model": {
+      "id": "deepseek-v4-flash",
+      "providerID": "hub"
+    },
+    "version": "1.18.21",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 7933,
+      "output": 4,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "time": {
+      "created": 1787769330452,
+      "updated": 1787769333703
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1787769330515
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "hub",
+          "modelID": "deepseek-v4-flash"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_03f5b1b52001oSZ55Cv9IiWjGW",
+        "sessionID": "ses_fc0a4e4ecffepLDbysxyaoVEmq"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "[redacted:text:prt_03f5b1b560016d86HM2qVewwJ0]",
+          "id": "prt_03f5b1b560016d86HM2qVewwJ0",
+          "sessionID": "ses_fc0a4e4ecffepLDbysxyaoVEmq",
+          "messageID": "msg_03f5b1b52001oSZ55Cv9IiWjGW"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_03f5b1b52001oSZ55Cv9IiWjGW",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "[redacted:cwd:msg_03f5b1b7b001LH1FIooXKvz8Ix]",
+          "root": "[redacted:root:msg_03f5b1b7b001LH1FIooXKvz8Ix]"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 7937,
+          "input": 7933,
+          "output": 4,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "deepseek-v4-flash",
+        "providerID": "hub",
+        "time": {
+          "created": 1787769330555,
+          "completed": 1787769333686
+        },
+        "finish": "stop",
+        "id": "msg_03f5b1b7b001LH1FIooXKvz8Ix",
+        "sessionID": "ses_fc0a4e4ecffepLDbysxyaoVEmq"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_03f5b2668001H2cisKi9W3Ow0Z",
+          "sessionID": "ses_fc0a4e4ecffepLDbysxyaoVEmq",
+          "messageID": "msg_03f5b1b7b001LH1FIooXKvz8Ix"
+        },
+        {
+          "type": "text",
+          "text": "[redacted:text:prt_03f5b266b001jQhSU00HnWyJtq]",
+          "time": {
+            "start": 1787769333355,
+            "end": 1787769333659
+          },
+          "id": "prt_03f5b266b001jQhSU00HnWyJtq",
+          "sessionID": "ses_fc0a4e4ecffepLDbysxyaoVEmq",
+          "messageID": "msg_03f5b1b7b001LH1FIooXKvz8Ix"
+        },
+        {
+          "reason": "stop",
+          "type": "step-finish",
+          "tokens": {
+            "total": 7937,
+            "input": 7933,
+            "output": 4,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 0
+            }
+          },
+          "cost": 0,
+          "id": "prt_03f5b27a4001gvbrqqfinRG0yc",
+          "sessionID": "ses_fc0a4e4ecffepLDbysxyaoVEmq",
+          "messageID": "msg_03f5b1b7b001LH1FIooXKvz8Ix"
+        }
+      ]
+    }
+  ]
+}
