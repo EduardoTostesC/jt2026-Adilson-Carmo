@@ -10,7 +10,7 @@ Somente valores de credenciais eventualmente presentes foram substituídos por:
 
 Nenhum conteúdo analítico foi removido.
 
-Metadados de caminho local podem aparecer como `[REDACTED_LOCAL_PATH]`.
+Alguns tool outputs históricos podem conter marcadores `[redacted:text:...]`. Esses marcadores já faziam parte do conteúdo observado durante a sessão original e foram preservados para manter a integridade histórica do log. Eles não correspondem à sanitização aplicada aos exports finais. Os prompts e respostas conversacionais das sessões foram preservados.
 
 | arquivo | session_id | fase | descrição curta |
 |---|---|---|---|
