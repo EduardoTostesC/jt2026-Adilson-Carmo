@@ -1,5 +1,5 @@
 Vídeo: [LINK_GOOGLE_DRIVE_PENDENTE]
-Transcrição: [LINK_GOOGLE_DRIVE_PENDENTE]
+Transcrição: https://drive.google.com/file/d/1_lM-ey8wIRfiFwnkJa9oLHzg-Xfnn85m/view?usp=sharing
 
 # Hackathon Jovens Talentos AI Builder 2026 — Recomendação de investimento em Itapema
 
